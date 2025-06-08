@@ -22,13 +22,13 @@ This UiPath RPA project is designed to automate bill payment reminders via email
 
 
 BillPaymentReminderBot/
-├── Data/
-│   └── BillDetails.xlsx          # Input/Output Excel file
-├── Main.xaml                     # Main workflow file
-├── Config/
-│   └── config.xlsx (optional)    # Stores credentials or constants
-├── Screenshots/                  # Optional: For UI references
-└── README.md                     # Project documentation
+
+  1 Data/
+     └── BillDetails.xlsx          # Input/Output Excel file
+  2 Main.xaml                     # Main workflow file
+       Config/
+          └── config.xlsx (optional)    # Stores credentials or constants
+          └── README.md                     # Project documentation
 
 
 ---
