@@ -1,4 +1,3 @@
-```markdown
 # 💳 Bill Payment Reminder Bot - UiPath
 
 This UiPath RPA project is designed to automate bill payment reminders via email. It reads customer bill details from an Excel file and sends personalized email reminders, tracks email statuses, handles exceptions, and updates the Excel file accordingly.
@@ -20,7 +19,7 @@ This UiPath RPA project is designed to automate bill payment reminders via email
 
 ## 📁 Project Structure
 
-```
+
 
 BillPaymentReminderBot/
 ├── Data/
@@ -31,7 +30,6 @@ BillPaymentReminderBot/
 ├── Screenshots/                  # Optional: For UI references
 └── README.md                     # Project documentation
 
-````
 
 ---
 
@@ -52,7 +50,6 @@ BillPaymentReminderBot/
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/yourusername/BillPaymentReminderBot.git
-````
 
 2. **Open in UiPath Studio**
 
@@ -83,8 +80,19 @@ BillPaymentReminderBot/
 ---
 
 ## 📷 Screenshots (Optional)
+I can implement my project in two method of criteria there are:
+
+First Method of Implement (Main(Autosaved)):
+This method is simple and easy to implement, methodologies of activity is (Input Dialog,Message Box,Assign,Email connection(SMTP),Log Message (or) Write Line)
 ![Screenshot 2025-06-08 211233](https://github.com/user-attachments/assets/06c3c5bb-25c3-457d-b797-e786872df565)
 
+
+Second Method of Implement (Main(Fixed)):
+This method is similar but literaly simple to implement, methodologies of activity is (Excel Application scope,Input Dialog,Assign,Email connection(SMTP),Log Message (or) Write Line)
+![Screenshot 2025-06-08 211205](https://github.com/user-attachments/assets/01dd9d34-ea4d-4fbc-83e9-6c076d708230)
+
+
+Use any one of the method to implement the project
 
 ---
 
